@@ -1,0 +1,28 @@
+{
+  "todo": [
+    {
+      "name": "new learn",
+      "date": "2023-04-01",
+      "type": "Studies",
+      "id": 1
+    },
+    {
+      "name": "mom`s help",
+      "date": "2023-04-02",
+      "type": "Family",
+      "id": 2
+    },
+    {
+      "name": "my work",
+      "date": "2023-04-03",
+      "type": "Personal",
+      "id": 3
+    },
+    {
+      "name": "office work",
+      "date": "2023-04-04",
+      "type": "Office",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.main{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 20px 2px #d3d2d2;
+}
+.searchData{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid rgb(65, 187, 240);
+    box-shadow: 2px 2px 10px 2px #d3d2d2;
+    outline: none;
+}
+.title{
+    width: 150px;
+    padding: 5px;
+    border: none;
+    background-color:rgba(186, 213, 216,1) ;
+}
+.taskes{
+    width: 150px;
+    padding: 5px;
+    border: none;
+    background-color:rgb(212, 227, 229) ;
+}
+.deletebtn{
+    width: 150px;
+    padding: 5px;
+    border: none;
+    background-color:rgb(152, 201, 239) ;
+}
+.deletebtn .dbtn{
+    border: none;
+    background-color: transparent;
+}
+.taskbtn{
+    padding: 15px 30px;
+    background-color:rgba(186, 213, 216,1);
+    box-shadow: 0 0 10px 2px #d3d3d3;
+    border: none;
+    margin-top: 30px;
+    transition: 0.8s all;
+}
+.taskbtn:hover{
+    background-color: rgb(152, 201, 239);
+    box-shadow: 0 0 10px 2px #b7b6b6;
+}
+
+
+/* ADD TASK PAGE */
+
+h1{
+    color: rgb(114, 190, 248);
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.addtask{
+    padding: 15px 10px;
+    background-color: rgb(212, 227, 229);
+}
+.inputs{
+    border: none;
+    width: 150px;
+    outline: none;
+    padding: 10px 5px;
+    background-color:rgba(186, 213, 216,1);
+    margin: 0px 10px;
+}
+.addbtn{
+    padding: 10px 35px;
+    border: none;
+    background-color:rgb(152, 201, 239) ;
+}
